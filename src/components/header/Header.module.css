@@ -1,0 +1,10 @@
+.nav_link {
+	padding: 8px;
+	border: 1px solid transparent;
+	border-radius: 12px;
+	transition: border-color 0.3s ease;
+}
+
+.nav_link:hover {
+	border-color: #334155;
+}

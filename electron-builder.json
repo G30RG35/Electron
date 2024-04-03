@@ -1,0 +1,22 @@
+{
+  "appId": "com.example.myapp",
+  "productName": "Mi aplicación",
+  "version": "1.0.0",
+  "directories": {
+    "buildResources": "build/resources"
+  },
+  "files": [
+    "**/*",
+    "!node_modules/**",
+    "!dist/**"
+  ],
+  "win": {
+    "target": [
+      "nsis",
+      "msi"
+    ],
+    "msi": {
+      "extraDirectory": "install_dir"
+    }
+  }
+}

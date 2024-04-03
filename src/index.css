@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--layout-width: 95%;
+	--layout-max-width: 1440px;
+	--header-height: 60px;
+	--color-white: #f9f9f9;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#root {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+html {
+	background-color: var(--color-white);
+}
+
+html.dark {
+	background-color: #000;
+}
