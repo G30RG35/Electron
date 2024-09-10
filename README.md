@@ -1,3 +1,5 @@
+A la hora de crar el instalador debe abir el cmd en modo administrador y correr el comando "npm run EBuild"
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
